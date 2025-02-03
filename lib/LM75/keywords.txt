@@ -1,0 +1,38 @@
+#######################################
+# Syntax Coloring Map For LM75
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+LM75	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+getMaxTemperature	KEYWORD2
+getMinTemperature	KEYWORD2
+setMaxTemperature	KEYWORD2
+setMinTemperature	KEYWORD2
+setFaultQueue	KEYWORD2
+getFaultQueue	KEYWORD2
+setPolarity	KEYWORD2
+getPolarity	KEYWORD2
+setOperationMode	KEYWORD2
+getOperationMode	KEYWORD2
+turnUp	KEYWORD2
+shutDown	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+COMPARATOR	LITERAL1
+INTERRUPT	LITERAL1
+
+###################################################
+# https://www.arduino.cc/en/Hacking/LibraryTutorial
+###################################################

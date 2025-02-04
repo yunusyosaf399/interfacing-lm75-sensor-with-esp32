@@ -65,7 +65,7 @@ void loop() {
   } else {
     Serial.print("Temperature: ");
     Serial.print(temperature_in_degrees);
-    Serial.println(" degrees");
+    Serial.print(" degrees");
 
     Serial.print(" (");
     Serial.print(temperature_in_degrees);

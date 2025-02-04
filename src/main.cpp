@@ -57,7 +57,7 @@ void setup() {
 
 void loop() {
   float temperature_in_degrees = readTemperature();
-  temperature_in_fahrenheit = temperature_in_degrees*(9/5)+32
+  temperature_in_fahrenheit = temperature_in_degrees*(9/5)+32;
   if (temperature_in_degrees == -1000) {
     Serial.println("Error while getting temperature");
     blinkEnabled = false;  // Disable LED blinking if data is invalid

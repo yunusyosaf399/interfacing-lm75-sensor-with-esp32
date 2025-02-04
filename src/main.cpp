@@ -36,7 +36,7 @@ float readTemperature() {
 }
 
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(9600);
   Wire.begin();  // Start I2C communication
   pinMode(LED, OUTPUT);  // Set LED pin as output
 
@@ -68,9 +68,10 @@ void loop() {
     Serial.print(" degrees");
 
     Serial.print(" (");
-    Serial.print(temperature_in_degrees);
+    Serial.print(temperature_in_fahrenheit);
     Serial.println(" fahrenheit)");
 
     blinkEnabled = true;  // Enable LED blinking when data is valid
   }
+  delay(2000);
 }

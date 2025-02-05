@@ -47,7 +47,7 @@ void setup() {
   timerAttachInterrupt(My_timer, &onTimer);  // Attach interrupt function
   timerAlarm(My_timer, 1000000, true, 0);  // Set alarm for 1 second
 
-  Serial.println("Scanning for I2C devices...");
+  Serial.println("Scanning for I2C devices....");
   for (byte i = 1; i < 127; i++) {
     Wire.beginTransmission(i);
     if (Wire.endTransmission() == 0) {
